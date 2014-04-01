@@ -30,6 +30,7 @@ public class FinalRater extends BoardRater {
     new BlocksAboveHoles(),
     new RowsWithOneHole(),
     new Stairs(),
+    new DoubleStairs(),
     new Roughness(),
     new WeightedHeight()
  };
@@ -50,6 +51,7 @@ public class FinalRater extends BoardRater {
 /*new BlocksAboveHoles()*/                2,
 /*new RowsWithOneHole()*/                 -5,
 /*new Stairs */                           2,
+/*new DoubleStairs */                     2,
 /*new Roughness*/                         1,
 /*new WeightedHeight()*/                  1,
 
